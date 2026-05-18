@@ -69,7 +69,7 @@ export default function AdminSidebar() {
       </div>
 
       {/* Navigation Groups */}
-      <div className="flex-1 px-3 space-y-8 overflow-y-auto py-6 scrollbar-hide">
+      <div className="flex-1 px-3 space-y-8 overflow-y-auto py-6 custom-scrollbar">
         {NAV_ITEMS.map((group, groupIdx) => (
           <div key={groupIdx} className="space-y-2">
             {!isCollapsed && (
@@ -102,7 +102,7 @@ export default function AdminSidebar() {
         ))}
       </div>
 
-      {/* Bottom Space - intentionally left empty to keep focus on Topbar */}
+      {/* Bottom Space */}
       <div className="p-4">
          {!isCollapsed && (
             <div className="px-3 py-2 bg-zinc-800/50 rounded-lg border border-zinc-700/50">
