@@ -34,9 +34,11 @@ export default function Navbar() {
           <Link href="/login" className="hidden sm:flex px-4 py-2 text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
             Log in
           </Link>
-          <Button className="bg-primary hover:bg-primary/90 text-primary-foreground">
-            {LANDING_CONTENT.navbar.cta}
-          </Button>
+          <Link href="/get-started">
+            <Button className="bg-primary hover:bg-primary/90 text-primary-foreground">
+              {LANDING_CONTENT.navbar.cta}
+            </Button>
+          </Link>
         </div>
       </div>
     </nav>
