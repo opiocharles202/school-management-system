@@ -32,7 +32,7 @@ export default function GetStartedPage() {
   const [step, setStep] = useState(1);
   const [isLoading, setIsLoading] = useState(false);
   const [submitted, setSubmitted] = useState(false);
-  const [errors, setErrors] = useState<Partial<Record<keyof ApplicationFormData, string>> onClick={undefined}>({});
+  const [errors, setErrors] = useState<Partial<Record<keyof ApplicationFormData, string>>>({});
   
   const [formData, setFormData] = useState({
     adminName: '',
