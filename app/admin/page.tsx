@@ -5,9 +5,12 @@ import {
   TrendingUp, 
   GraduationCap, 
   AlertCircle,
-  ArrowRight
+  ArrowRight,
+  FileText,
+  BookOpen
 } from 'lucide-react';
 import Link from 'next/link';
+import { cn } from '@/lib/utils';
 
 export default function AdminDashboard() {
   return (

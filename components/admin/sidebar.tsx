@@ -110,7 +110,7 @@ export default function AdminSidebar() {
           </div>
           {!isCollapsed && (
             <div className="flex flex-col overflow-hidden">
-              <span className="text-sm font-medium text-white truncate">Admin User</span
+              <span className="text-sm font-medium text-white truncate">Admin User</span>
               <span className="text-[10px] text-zinc-500 truncate">Super Admin</span>
             </div>
           )}
