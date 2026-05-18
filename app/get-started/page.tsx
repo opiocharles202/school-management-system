@@ -129,9 +129,9 @@ export default function GetStartedPage() {
               We will contact you at <span className="font-semibold">{formData.adminEmail}</span> shortly.
             </p>
           </div>
-          <Button asChild className="w-full py-6 text-lg">
-            <Link href="/">Return to Home</Link>
-          </Button>
+          <Link href="/" className="w-full">
+            <Button className="w-full py-6 text-lg">Return to Home</Button>
+          </Link>
         </Card>
       </div>
     );
